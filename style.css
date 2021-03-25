@@ -1,6 +1,8 @@
 h2 {
     color:aqua;
 }
-.invisible {
-    color: white; 
-}
+
+h2:hover {
+    color: #FF00FF;
+  }
+  
