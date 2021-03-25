@@ -1,7 +1,11 @@
 // const aboutMe = document.getElementById("aboutMe")
 
-function revealText(tag) {
-    const newColor = tag
-    newColor.fontcolor("green")
-    console.log(tag.style)
-}
+const input = document.getElementById('aboutMe');
+input.addEventListener('click', function() {
+  alert('Thats all there is to know!');
+}); 
+
+const newInput = document.getElementById('myProjects');
+newInput.addEventListener('click', function() {
+  alert('More to come!');
+}); 
