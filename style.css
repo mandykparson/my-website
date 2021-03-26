@@ -10,6 +10,7 @@ html {
     overflow-y: auto;
     background: #faf3e6;
     background-size: 22em;
+    font-family: "georgia", serif;
   }
 
 h1 {
