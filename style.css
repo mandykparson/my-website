@@ -1,0 +1,85 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Antonio', sans-serif; */
+}
+html{
+    background-image: url("https://previews.123rf.com/images/javarman/javarman2002/javarman200200076/140154873-cork-board-texture-perfect-high-resolution-grunge-background-.jpg");
+    background-attachment: scroll; 
+}
+
+
+body {
+    margin:0px;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.6); 
+    padding: 1px;  
+}
+
+h1 {
+    color: #79ad9f;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0px 1px 1px #193439;
+    margin: 15px
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.3); 
+    padding: 10px; 
+    font-size: 20px;
+    max-width: 300px
+}
+
+#navigation-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #193439;
+    color: white;
+    
+}
+
+#main-content {
+    display: flex;
+    background-color: #79ad9f;
+    justify-content:space-between;
+    margin: 1rem;
+    max-height: 400px;
+    max-width: 800px
+    float: left;
+    box-shadow: 0 10px 40px #000;
+    z-index: 2;
+    position: relative;
+
+}
+
+#aboutMeText {
+    color: white;
+    padding: 20px;
+    min-width: 300px;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 1rem;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #193439;
+}
+
+img {
+    width:fit-content;
+}
