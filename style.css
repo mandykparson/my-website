@@ -46,7 +46,7 @@ p {
     justify-content:space-between;
     margin: 1rem;
     max-height: 400px;
-    max-width: 800px
+    max-width: 800px;
     float: left;
     box-shadow: 0 10px 40px #000;
     z-index: 2;
@@ -83,3 +83,39 @@ footer {
 img {
     width:fit-content;
 }
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    opacity: .5;
+}
+
+#blog-content {
+    display: block;
+    width: 100%;
+    margin: 1rem;
+    text-align: center;
+}
+
+.frame-area {
+    width: 80%;  /* RESPONSIVE WIDTH */
+    height: 450px;
+    overflow: auto;  /* EDIT TO hidden FOR NO SCROLLBAR */
+    border: #999999 1px solid;
+    /* margin: 0px;
+    padding: 0px; */
+    box-shadow: 0 10px 40px #000;
+    
+}
+
+#project-content{
+    display:flex;
+    justify-content: space-around;
+    margin: 1rem;
+    position: relative;
+}
+
+
